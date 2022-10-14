@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8e8e5;
+}
+
+main {
+    background-color: white;
+    width: 52rem;
+    height: 35rem;
+    margin: auto;
+    margin-top: 2.5rem;
+    display: flex;
+}
+
+.section1 {
+    width: 20rem;
+    height: 35rem
+}
+
+.section1 .house {
+    width: 20rem;
+    height: 35rem;
+}
+
+.section2 {
+    width: 32rem;
+    height: 35rem;
+
+}
+
+.text {
+    position: absolute;
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+    font-size: 10px;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 9rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav a {
+    color: #898989;
+}
+
+a:hover {
+    color: black;
+    font-weight: 900;
+}
+
+.middle {
+    padding-left: 4rem;
+}
+
+span {
+    font-weight: bolder;
+    letter-spacing: -0.5rem;
+}
+
+h1 {
+    font-size: 50px;
+    width: 22rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.last1 {
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+.preview {
+    width: 9rem;
+
+}
+
+footer {
+    display: flex;
+}
+
+.last2 {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 14rem;
+    line-height: 1.6rem;
+}
+
+.sma {
+    font-size: 10px;
+}
+
+.arrowright img,
+.arrowback {
+    width: 1rem;
+}
+
+.arrowright {
+    display: flex;
+    /* gap: 0.5rem; */
+    margin-top: 0.2rem;
+    justify-content: baseline;
+}
+
+.arrowright p {
+    width: 6rem;
+}
