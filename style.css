@@ -109,7 +109,7 @@ footer {
 }
 
 .arrowright img,
-.arrowback {
+.arrowback img {
     width: 1rem;
 }
 
@@ -122,4 +122,19 @@ footer {
 
 .arrowright p {
     width: 6rem;
+}
+
+.preview {
+    position: relative;
+}
+
+.preview img:nth-child(2) {
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    opacity: 60%;
+    border-radius: 50%;
+    position: absolute;
+    left: 4rem;
+    top: 2rem;
 }
